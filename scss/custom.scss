@@ -1,0 +1,65 @@
+@import "../bootstrap-5.3.0-alpha1/scss/bootstrap.scss";
+
+.cambiaColorSlider {
+  color: rgb(248, 91, 214);
+}
+
+
+.datosMoviles{
+    text-align: justify;
+}
+
+.pulsado:hover{
+    bottom: 10px;
+}
+
+.textos p {
+    margin: 250px;
+    text-align: center;
+}
+
+.ayuda1{
+
+    grid-area: ayu1;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 228, 196, 0.534);
+    justify-content: flex-start;
+}
+
+.ayuda2{
+   
+    grid-area: ayu2;
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+
+.ayuda3{
+
+    grid-area: ayu3;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 228, 196, 0.589);
+}
+
+.ayuda4{
+    
+    grid-area: ayu4;
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+
+
+
+
+/* .imagenPulsada:hover{
+    transform: scale(1.5);
+    z-index: 100;
+} */
+
+/* div{
+    overflow: hidden;
+} */
+
